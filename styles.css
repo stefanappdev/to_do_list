@@ -1,0 +1,50 @@
+
+#status_col{
+	display:flex;
+	grid-area:"status";
+	flex:row;
+	align-items:center;
+	
+	}
+
+
+#items_col{
+	
+	grid-area:"items";
+
+	}
+	
+.cols{
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	g
+	
+	}
+	
+.activities{
+	grid-column:2/3;
+
+	}
+	
+.stat{
+
+	grid-column:1/2;
+	}
+	
+	
+ul>#first_form{
+	
+visibility:hidden;	
+	
+}
+
+
+#to_do_list>li{
+display:grid;
+list-style:none;
+grid-template-columns:repeat(2,1fr);
+grid-template-areas:
+			"items status"
+			"items status";
+	
+}

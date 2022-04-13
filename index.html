@@ -4,44 +4,67 @@
 		<head>
 			<meta charset="utf-8">
 			<link rel="stylesheet" type="text/css" href="styles.css">
-			<script type="text/javascript" src="Menu.js"></script>
+			<script type="text/javascript" src="app.js"></script>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title></title>
 		</head>
 
 		<body>
+			<div id="bod" class="grid">
 			
-			<h1>This shows how to add and remove elements to html using Javascript</h1>
-			<br>
-
-			<h2>Restaurant Menu List</h2>
 			
 			<br>
 
-			<ul id="Menu">
+			<h1>To Do List</h1>
+			
+			<div class="cols">
+		
+			
+			<div class="stat">status</div>
+			<div class="activities">activities</div> 
+			</div>
+			
+			
+			<br>
+			
+			<ul id="to_do_list">
 		
 
 
-			</ul>			
+			</ul>	
+			
+			
+			
+			</div>
+
+			
 			<br>
 
-			<p>The form below adds or remove menu items from the list</p>
+			<p>Add or remove menu items from the to do list</p>
 			<br>
 
 			<form id="add_item">
 				<label for="add" name="add"></label>
 
-				<input type="text" id="item_name" name="add">
+				<input type="text" id="item_name" name="add item">
 
-				<input type="button" value="add" onclick=add_item() >
+				<input type="button" value="add item" onclick=handle_item() >
 
 
 			</form>
-
-
-		
-
+			<br>
+			
+			
+			
+			<br>
+			
+			</div>
 
 		</body>
+		<br>
+		
+		
+<footer> 	Copyright:@ Stefan Mitchell 2022	</footer>
+
 
 </html>
